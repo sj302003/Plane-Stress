@@ -1,6 +1,7 @@
 #include "initialize.h"
 #include "constraints.h"
 #include "constructor.h"
+#include "read.h"
 #include <fstream>
 #include <sstream>
 #include <iostream>
