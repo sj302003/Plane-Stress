@@ -118,24 +118,7 @@ extern vector<BB> BB_results_mat(order);
 const double EPS;
 
 extern int ele;
-const double EPS;
-extern double xcoord[4];
-extern double ycoord[4];
-extern Errret ErrAGrad;
-extern	int u_pos[8];
-extern	int phi_pos[24];
-extern	vector<double> gradval;
-extern	double u_val[8];
-extern	double phi_val[24];
-extern	int elenodes[4];
-extern	int numpar;
-extern	int GQorder;
-extern	double errval;
-extern	double ScaleFac;
-extern vector<vector<double>> Cmat;
-extern	vector<vector<double>> Emat;
-extern	vector<double> delvalue;
-extern	vector<double> tempmat(3);
+extern const double EPS;
 
 extern BB BBresult;
 struct BB {
